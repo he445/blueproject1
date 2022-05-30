@@ -3,13 +3,13 @@ const prompt = require("prompt-sync")();
 const intro1 =  (`– Acorde, acorde!
 Uma luz faiscante invade a sua tenda enquanto vc dorme.
 – Acorde, vamos! - repete a voz feminina doce e ao mesmo tempo Régia.`)
-const intro2= (`Acorde, vamos- repete a voz feminina doce e ao mesmo tempo Regia
-O jovem se apequena em sua tenda na esperança de se esconder de tal aparição`)
-const intro3=(`Você se apequena em sua tenda na esperança de se esconder de tal aparição.
- – Não há tempo para dormir, porque enquanto vocês dormem, das terras além do deserto desperta o grande terror, 
+const intro2= (`O jovem se apequena em sua tenda na esperança de se 
+esconder de tal aparição`)
+const intro3=(`– Não há tempo para dormir, porque enquanto vocês dormem, das terras além do deserto desperta o grande terror, 
  o mesmo terror que expulsou o povo elfo de suas terras, o terror que consome tudo que vê, aquele que nem as estrelas, 
  plua ou mesmo o sol estão a salvo.`)
-const intro4= (`Levante jovem a Dama das Batalhas te chama a ação, erga-se e lute e evite o consumo de tudo que é real.`)
+const intro4= (`Levante jovem a Dama das Batalhas te chama a ação, 
+erga-se e lute e evite o consumo de tudo que é real.`)
 setTimeout(function(){console.log (intro1)},75)
 setTimeout(function(){console.log (intro2)},1000)
 setTimeout(function(){console.log (intro3)},2000)
